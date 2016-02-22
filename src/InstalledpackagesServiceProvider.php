@@ -1,4 +1,6 @@
-<?php namespace Lasallecms\Installedpackages;
+<?php
+
+namespace Lasallecms\Installedpackages;
 
 /**
  *
@@ -54,41 +56,20 @@ class InstalledpackagesServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->setupConfiguration();
+        //$this->setupConfiguration();
 
-        $this->setupMigrations();
-        $this->setupSeeds();
+        //$this->setupMigrations();
+        //$this->setupSeeds();
 
         $this->setupRoutes($this->app->router);
 
-        $this->setupTranslations();
+        //$this->setupTranslations();
 
         $this->setupViews();
 
         //$this->setupAssets();
     }
 
-
-    /**
-     * Boot the service provider.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        $this->setupConfiguration();
-
-        $this->setupMigrations();
-        $this->setupSeeds();
-
-        $this->setupRoutes($this->app->router);
-
-        $this->setupTranslations();
-
-        $this->setupViews();
-
-        $this->setupAssets();
-    }
 
     /**
      * Setup the Configuration.
@@ -195,9 +176,11 @@ class InstalledpackagesServiceProvider extends ServiceProvider {
     {
         $this->loadViewsFrom(__DIR__.'/../views', 'installedpackages');
 
+        /*
         $this->publishes([
             __DIR__.'/../views' => base_path('resources/views/vendor/lasallecmsinstalledpackages'),
         ]);
+        */
 
     }
 

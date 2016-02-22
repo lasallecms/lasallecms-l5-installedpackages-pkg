@@ -1,5 +1,7 @@
 <?php
 
+namespace Lasallecms\Installedpackages\Http\Controllers;
+
 /**
  *
  * Installed Packages package for the LaSalle Content Management System, based on the Laravel 5 Framework
@@ -28,12 +30,28 @@
  *
  */
 
+// LaSalle Software
+use Lasallecms\Installedpackages\Http\Controllers;
+use Lasallecms\Installedpackages\CreateInstalledPackagesArray;
+use Lasallecms\Helpers\HTML\HTMLHelper;
 
-/*
- * Admin route to list of LaSalle Software installed packages
+// Laravel facades
+use Illuminate\Support\Facades\Config;
+
+/**
+ * Class InstalledPackagesController
  */
-$router->get('admin/installedpackages', [
-    'as'   => 'admin.installedpackages',
-    'uses' => 'InstalledPackagesController@ListInstalledPackages'
-]);
+class InstalledPackagesController extends \Lasallecms\Installedpackages\Http\Controllers\Controller
+{
+    /**
+     * List the LaSalle Software packages that are installed on this web app
+     */
+    public function ListInstalledPackages(CreateInstalledPackagesArray $createInstalledPackagesArray) {
 
+        return view('installedpackages::installedpackages', [
+            'installedPackages' => $createInstalledPackagesArray->CreateArray(),
+            'template'          => Config::get('lasallecmsadmin.admin_template_name'),
+            'HTMLHelper'        => HTMLHelper::class,
+        ]);
+    }
+}
