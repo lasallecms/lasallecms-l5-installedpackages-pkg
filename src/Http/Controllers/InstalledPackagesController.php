@@ -31,7 +31,7 @@ namespace Lasallecms\Installedpackages\Http\Controllers;
  */
 
 // LaSalle Software
-use Lasallecms\Installedpackages\Http\Controllers;
+use Lasallecms\Installedpackages\Http\Controllers\Controller;
 use Lasallecms\Installedpackages\CreateInstalledPackagesArray;
 use Lasallecms\Helpers\HTML\HTMLHelper;
 
@@ -41,7 +41,7 @@ use Illuminate\Support\Facades\Config;
 /**
  * Class InstalledPackagesController
  */
-class InstalledPackagesController extends \Lasallecms\Installedpackages\Http\Controllers\Controller
+class InstalledPackagesController extends Controller
 {
     /**
      * List the LaSalle Software packages that are installed on this web app

@@ -1,5 +1,6 @@
 @extends('lasallecmsadmin::'.$template.'.layouts.default')
 
+
 @section('content')
 
     <section class="content">
@@ -40,6 +41,7 @@
 
                 </div> <!-- col-md-9 -->
             </div> <!-- row -->
+
         </div> <!-- container -->
     </section>
 

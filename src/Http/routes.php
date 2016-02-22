@@ -28,7 +28,6 @@
  *
  */
 
-
 /*
  * Admin route to list of LaSalle Software installed packages
  */
@@ -36,4 +35,5 @@ $router->get('admin/installedpackages', [
     'as'   => 'admin.installedpackages',
     'uses' => 'InstalledPackagesController@ListInstalledPackages'
 ]);
+
 
