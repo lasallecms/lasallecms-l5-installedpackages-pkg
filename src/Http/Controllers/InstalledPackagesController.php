@@ -49,7 +49,7 @@ class InstalledPackagesController extends Controller
      */
     public function __construct() {
 
-        // execute AdminController's construct method first in order to run the middleware
+        // execute base controller's construct method first in order to run the middleware
         parent::__construct();
     }
 
