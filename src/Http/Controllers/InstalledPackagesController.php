@@ -43,6 +43,17 @@ use Illuminate\Support\Facades\Config;
  */
 class InstalledPackagesController extends Controller
 {
+
+    /**
+     * CandlelightingController constructor.
+     */
+    public function __construct() {
+
+        // execute AdminController's construct method first in order to run the middleware
+        parent::__construct();
+    }
+
+
     /**
      * List the LaSalle Software packages that are installed on this web app
      */
