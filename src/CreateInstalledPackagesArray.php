@@ -48,17 +48,17 @@ class CreateInstalledPackagesArray
 
         $installedPackages = [];
 
+        foreach ($allPackages as $class) {
 
-        foreach ($allPackages as $class)
+            if ( defined("\\".$class."\\Version::VERSION") ) {
 
-        if ( defined("\\".$class."\\Version::VERSION") ) {
-
-            $installedPackages[] = [
-                'class'       => $class,
-                'version'     => constant("\\".$class."\\Version::VERSION"),
-                'description' => constant("\\".$class."\\Version::PACKAGE"),
-            ];
-        }
+                $installedPackages[] = [
+                    'class'       => $class,
+                    'version'     => constant("\\".$class."\\Version::VERSION"),
+                    'description' => constant("\\".$class."\\Version::PACKAGE"),
+                ];
+            }
+       }
 
         return $installedPackages;
     }
@@ -86,7 +86,7 @@ class CreateInstalledPackagesArray
             'Lasallecrm\Todo',
             'Lasallecrm\Listmanagement',
 
-            'Lasallecast\Lasallecastapi',
+            //'Lasallecast\Lasallecastapi',
             'Lasallecast\Lasallecastadmin',
             'Lasallecast\Lasallecastfrontend',
             'Lasallecast\Lasallecastitunes',
