@@ -72,17 +72,17 @@ class CreateInstalledPackagesArray
             'Lasallecms\Helpers',
 
             'Lasallecms\Contact',
-            'Lasallecms\Enhancedcontact',
             'Lasallecms\Candlelighting',
             'Lasallecms\Servicetimes',
             'Lasallecms\Events',
             'Lasallecms\Filemanagement',
             'Lasallecms\Knowledgebase',
-            'Lasallecms\Twilio',
+            'Lasallecms\Shortmessageservice',
             'Lasallecms\Installedpackages',
 
             'Lasallecrm\Lasallecrmapi',
             'Lasallecrm\Lasallecrmadmin',
+            'Lasallecrm\Lasallecrmcontact',
             'Lasallecrm\Todo',
             'Lasallecrm\Listmanagement',
 
