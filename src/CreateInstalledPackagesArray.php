@@ -37,7 +37,7 @@ namespace Lasallecms\Installedpackages;
 class CreateInstalledPackagesArray
 {
 
-    /**asallecms-l5-lasallecmsadmin-pkg/issues/26
+    /**  
      * What LaSalle Software packages are installed?
      *
      * @return array
