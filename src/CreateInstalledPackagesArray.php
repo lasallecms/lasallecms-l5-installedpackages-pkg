@@ -87,7 +87,7 @@ class CreateInstalledPackagesArray
             'Lasallecrm\Lasallecrmemail',
             'Lasallecrm\Listmanagement',
 
-            //'Lasallecast\Lasallecastapi',
+            'Lasallecast\Lasallecastapi',
             'Lasallecast\Lasallecastadmin',
             'Lasallecast\Lasallecastfrontend',
             'Lasallecast\Lasallecastitunes',
