@@ -70,7 +70,6 @@ class CreateInstalledPackagesArray
             'Lasallecms\Lasallecmsfrontend',
             'Lasallecms\Formhandling',
             'Lasallecms\Helpers',
-
             'Lasallecms\Contact',
             'Lasallecms\Candlelighting',
             'Lasallecms\Servicetimes',
@@ -79,6 +78,9 @@ class CreateInstalledPackagesArray
             'Lasallecms\Knowledgebase',
             'Lasallecms\Shortmessageservice',
             'Lasallecms\Installedpackages',
+            'Lasallecms\Usermanagement',
+            'Lasallecms\Lasallecmstokenbasedlogin',
+            'Lasallecms\Lasallecmsmailgun',
 
             'Lasallecrm\Lasallecrmapi',
             'Lasallecrm\Lasallecrmadmin',
