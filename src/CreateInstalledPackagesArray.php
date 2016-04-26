@@ -32,7 +32,7 @@ namespace Lasallecms\Installedpackages;
 
 /**
  * Class CreateInstalledPackagesArray
- * @package Lasallecms\Installedpackages
+ * @package Lasallecms\Installedpackages	Initial package scaffolding. #1
  */
 class CreateInstalledPackagesArray
 {
@@ -81,6 +81,7 @@ class CreateInstalledPackagesArray
             'Lasallecms\Usermanagement',
             'Lasallecms\Lasallecmstokenbasedlogin',
             'Lasallecms\Lasallecmsmailgun',
+            'Lasallecms\Lasallecmscustominboundemail',
 
             'Lasallecrm\Lasallecrmapi',
             'Lasallecrm\Lasallecrmadmin',
