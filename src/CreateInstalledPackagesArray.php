@@ -82,12 +82,12 @@ class CreateInstalledPackagesArray
             'Lasallecms\Lasallecmstokenbasedlogin',
             'Lasallecms\Lasallecmsmailgun',
             'Lasallecms\Lasallecmscustominboundemail',
+            'Lasallecms\Lasallecmsemail',
 
             'Lasallecrm\Lasallecrmapi',
             'Lasallecrm\Lasallecrmadmin',
             'Lasallecrm\Lasallecrmcontact',
             'Lasallecrm\Todo',
-            'Lasallecrm\Lasallecrmemail',
             'Lasallecrm\Listmanagement',
 
             'Lasallecast\Lasallecastapi',
