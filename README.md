@@ -1,4 +1,4 @@
-# INSTALLED PACKAGES
+# LIST OF INSTALLED LASALLE SOFTWARE PACKAGES IN THE ADMIN
 
 [![Total Downloads](https://img.shields.io/packagist/dt/lasallecms/installedpackages.svg?style=flat-square)](https://packagist.org/packages/lasallecms/installedpackages)
 [![Latest Stable Version](https://poser.pugx.org/lasallecms/installedpackages/v/stable.svg)](https://packagist.org/packages/lasallecms/installedpackages)
