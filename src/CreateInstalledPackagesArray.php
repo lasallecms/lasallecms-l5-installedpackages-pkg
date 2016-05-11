@@ -83,6 +83,7 @@ class CreateInstalledPackagesArray
             'Lasallecms\Lasallecmsmailgun',
             'Lasallecms\Lasallecmscustominboundemail',
             'Lasallecms\Lasallecmsemail',
+            'Lasallecms\Lasallecmsbackup',
 
             'Lasallecrm\Lasallecrmapi',
             'Lasallecrm\Lasallecrmadmin',
